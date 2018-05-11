@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FirebaseChat</string>
+    <string name="error_default">Has an error occur!</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="inbox">Inbox</string>
+    <string name="favorite">Favorite</string>
 </resources>

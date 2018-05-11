@@ -15,18 +15,21 @@
         android:layout_height="match_parent"
         >
 
-        <Button
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            style="@style/FacebookLoginButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
+            android:paddingTop="@dimen/space_10dp"
+            android:paddingBottom="@dimen/space_10dp"
             android:text="Log in with facebook"
+            android:textColor="@color/black"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:background="@drawable/bg_login_facebook"
-            android:textColor="@android:color/white"
             />
     </android.support.constraint.ConstraintLayout>
 </layout>
