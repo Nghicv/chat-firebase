@@ -14,7 +14,7 @@ abstract class BaseViewModel(application: Application) : AndroidViewModel(applic
         super.onCleared()
     }
 
-    protected fun addCall(disposable: Disposable) {
+    protected fun bindCall(disposable: Disposable) {
         compositeDisposable.add(disposable)
     }
 }
